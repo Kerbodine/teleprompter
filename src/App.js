@@ -30,7 +30,7 @@ export default function App() {
       <div className="mx-auto max-w-4xl mt-8">
         <div className="flex flex-col mb-1">
           <textarea
-            className="h-[5rem] border-2 border-gray-200 rounded-md mb-1 w-full outline-none focus:border-gray-600 px-1.5 py-1 transition-colors"
+            className="h-[5rem] resize-none border-2 border-gray-200 rounded-md mb-1 w-full outline-none focus:border-gray-600 px-1.5 py-1 transition-colors"
             onChange={handleInput}
             value={words.join(" ")}
           />
